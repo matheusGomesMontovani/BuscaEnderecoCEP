@@ -1,0 +1,10 @@
+#campo {
+    width: 500px;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: auto;
+    border: 5px solid white;
+}

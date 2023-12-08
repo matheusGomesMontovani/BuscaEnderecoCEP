@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="form">
+        <div class="container mt-5 d-flex justify-content-center align-items-center col-md-12" id="campo">
+          <div>
+            <label id="title" style="width: 115px;">CEP</label>
+            <input type="text" class="text-body" id="cep" maxlength="9">
+            <button type="button" class="btn btn-primary" onclick="procurarEnderecoCep()"><i class="fa fa-map-pin" aria-hidden="true"></i> Buscar</button>
+          </div>
+          <div>
+            <label id="nome-logradoro" style="width: 190px;">Logradouro</label>
+            <input type="text" id="logradouro" class="text-body" disabled>
+          </div>
+          <div>
+              <label id="nome-complemento" style="width: 190px;">Complemento</label>
+              <input type="text" id="complemento" class="text-body" disabled>
+          </div>
+          <div>
+            <label id="nome-bairro" style="width: 190px;">Bairro</label>
+            <input type="text" id="bairro" class="text-body" disabled>
+          </div>
+          <div>
+            <label id="nome-localidade" style="width: 190px;">Localidade</label>
+            <input type="text" id="localidade" class="text-body" disabled>
+          </div>
+          <div>
+            <label id="nome-uf" style="width: 190px;">UF</label>
+            <input type="text" id="uf" class="text-body" disabled>
+          </div>
+          <div>
+            <label id="nome-ibge" style="width: 190px;">IBGE</label>
+            <input type="text" id="ibge" class="text-body" disabled>
+          </div>
+        </div>
+    </form>
+  </body>
+</html>
